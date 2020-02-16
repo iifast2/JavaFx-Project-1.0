@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="1366.0" style="-fx-background-size: cover; -fx-background-image:url(/img/personwomenhotellaptop.jpg);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelmanagementsystem.HomeScreenController">
+   <children>
+      <Label layoutX="480.0" layoutY="73.0" text="Home Screen">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <Pane fx:id="pane_2" layoutX="566.0" layoutY="199.0" onMouseEntered="#mouse_hover_2" onMouseExited="#mouse_exit_2" opacity="0.7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/007-key-1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="61.0" layoutY="158.0" text="Available Room">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_1" layoutX="322.0" layoutY="199.0" onMouseEntered="#mouse_hover_1" onMouseExited="#mouse_exit_1" opacity="0.7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/001-contract-1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="157.0" text="Reservation ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_3" layoutX="811.0" layoutY="199.0" onMouseEntered="#mouse_hover_3" onMouseExited="#mouse_exit_3" opacity="0.7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/005-user.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="53.0" layoutY="158.0" text="Customer Info">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_4" layoutX="442.0" layoutY="451.0" onMouseEntered="#mouse_hover_4" onMouseExited="#mouse_exit_4" opacity="0.7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/006-exit.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="61.0" layoutY="158.0" text="Reservation">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane_5" layoutX="711.0" layoutY="451.0" onMouseEntered="#mouse_hover_5" onMouseExited="#mouse_exit_5" opacity="0.7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 6px;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="55.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/004-direction.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="61.0" layoutY="158.0" text="Reservation">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
